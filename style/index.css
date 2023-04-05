@@ -1,1 +1,143 @@
 /* CSS stillerinizi buraya girin */
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.container {
+    font-size: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+    max-width: 1350px;  
+  
+
+}
+.buyukresim img{
+    width:635px;
+}
+.baslik{
+    display: flex;
+    color: black;
+    background-color: white;
+    border:  solid #000000;
+    justify-content: center;
+}
+.isim{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(204, 223, 224);
+    padding: 1rem;
+}
+
+.header h1{
+    font-size: 30px;
+    padding-left: 2.5rem;
+    
+}
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+
+}
+
+.flex-nav a{
+    background-color: white;
+    border:  .1px solid #000000;
+    padding: .4rem 1.4rem;
+}
+.flex-nav a:hover{
+    background-color: black;
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.aciklama{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+.projeler{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(204, 223, 224);
+    padding: 4rem;
+    min-width: 300px;
+}
+
+.border{
+    color: black;
+    background-color: white;
+    border:  solid #000000;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.proje{
+
+    padding: .3rem 1.5rem;
+}
+.kendim{
+    max-width: 400px;
+    margin-top: 1rem;
+    font-size: 17px;
+}
+.footer-yazi{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.enalt:hover{
+    
+    background-color: black;
+    color: white
+    
+}
+
+.ortakisim{
+    border:  solid #000000;
+    padding: 1rem;
+
+}
+.img{
+    display: inline-block;
+    text-align: center;
+}
+.img p{
+    padding: .5rem;
+    padding-bottom: 3rem;
+}
